@@ -1,0 +1,34 @@
+/* variables */
+/* global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* nav */
+.navbar-brand a {
+  font-style: italic;
+  color: #faea2c;
+  font: "Dancing Script", cursive;
+}
+
+.collapse ul {
+  text-align: right;
+}
+
+/* splash */
+.splash {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.container-splash {
+  z-index: -1;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBU0EsV0FBQTtBQUVBOzs7RUFHRSxzQkFBc0I7QUNSeEI7O0FEV0E7RUFDRSxxQkFBcUI7QUNSdkI7O0FEV0EsUUFBQTtBQUVBO0VBRUksa0JBQWtCO0VBQ2xCLGNBeEJhO0VBeUJiLCtCQXJCOEI7QUNXbEM7O0FEYUE7RUFFSSxpQkFBaUI7QUNYckI7O0FEZUEsV0FBQTtBQUVBO0VBQ0UsYUFBYTtFQUNiLFVBQVU7RUFDVixTQUFTO0FDYlg7O0FEZUE7RUFDRSxXQUFXO0FDWmIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
