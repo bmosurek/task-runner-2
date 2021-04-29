@@ -4,15 +4,33 @@ $color-1: navy;
 $color-2: white;
 $color-3: black;
 
+$color-background-1: #ececec;
+$color-background-2: #f8f8f8;
+
 $font-1: "Dancing Script", cursive;
 $font-text: "Libre Baskerville", serif;
 
 /* global */
 
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: $color-background-1;
+}
+
 .section-title {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 12px;
+  font-weight: 800;
 }
 
 .section-caption {
@@ -20,7 +38,7 @@ $font-text: "Libre Baskerville", serif;
   font-style: italic;
   text-align: center;
   opacity: 0.7;
-  margin-bottom: ;
+  margin-bottom: 12px;
 }
 
 /* nav */
@@ -29,11 +47,17 @@ $font-text: "Libre Baskerville", serif;
   font-style: italic;
   color: $color-1;
   font: $font-1;
+  font-size: 1.5rem;
 }
 
 .navbar-toggler {
   border-color: black;
   color: black;
+}
+
+a.nav-link {
+  color: $color-1;
+  font-weight: 600;
 }
 
 /* splash */
@@ -72,4 +96,91 @@ h2 {
   font-size: 3rem;
   font-style: italic;
   margin-bottom: 32px;
+}
+.btn-1 {
+  font-size: 1.5rem;
+  padding: 20px 36px;
+}
+
+/* services */
+
+.icon {
+  text-align: center;
+  a {
+    font-size: 50px;
+    border-radius: 100%;
+    border: 4px solid $color-1;
+    height: 60px;
+    width: 60px;
+    color: $color-1;
+    border-radius: 50%;
+    margin: 0 12px 48px 12px;
+    padding: 16px;
+  }
+}
+.card {
+  text-align: center;
+  background-color: $color-background-1;
+  border: none;
+}
+
+/* our portfolio */
+
+.our-portfolio {
+  background-color: $color-background-2;
+}
+
+.card {
+  margin-bottom: 12px;
+  img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  h5 {
+    opacity: 0.7;
+  }
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  background: $color-background-1;
+  position: relative;
+}
+
+footer ul {
+  display: inline-flex;
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+footer li {
+  font-size: 0;
+}
+
+footer i {
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  background: black;
+  color: #ffffff;
+  border-radius: 50%;
+  margin: 0 12px 48px 12px;
+}
+
+footer .fab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.copyright {
+  bottom: 16px;
 }
