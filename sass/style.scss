@@ -1,6 +1,6 @@
 /* variables */
 
-$color-1: #faea2c;
+$color-1: navy;
 $color-2: white;
 $color-3: black;
 
@@ -8,17 +8,27 @@ $font-1: "Dancing Script", cursive;
 $font-text: "Libre Baskerville", serif;
 
 /* global */
-body {
-  background: blue;
+
+.section-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 12px;
 }
+
+.section-caption {
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: ;
+}
+
 /* nav */
 
 .navbar-brand {
-  a {
-    font-style: italic;
-    color: green;
-    font: $font-1;
-  }
+  font-style: italic;
+  color: $color-1;
+  font: $font-1;
 }
 
 .navbar-toggler {
@@ -28,8 +38,38 @@ body {
 
 /* splash */
 
-.splash-inner {
+.splash {
+  background-image: url("https://images.pexels.com/photos/459654/pexels-photo-459654.jpeg?cs=srgb&dl=pexels-pixabay-459654.jpg&fm=jpg");
   height: 100vh;
+  background-position: center center;
   background-size: cover;
+  position: relative;
+}
+
+.splash-inner {
+  position: absolute;
   width: 100%;
+  top: 40%;
+  text-align: center;
+  color: $color-1;
+  a {
+    text-decoration: none;
+    background: $color-1;
+    color: $color-2;
+    border: none;
+  }
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: $font-text;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+h2 {
+  font-family: $font-text;
+  font-size: 3rem;
+  font-style: italic;
+  margin-bottom: 32px;
 }
